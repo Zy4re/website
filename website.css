@@ -1,1 +1,18 @@
 
+body {
+    background-color: aqua; /* sets the background color to aqua */
+
+}
+header {
+    background-color: blue;
+    
+}
+
+h1 {
+    color: beige; /* color of header 1 is now beige */
+    text-align: center; /* centers everything in header 1 */
+}
+
+h2 {
+    text-align: center;
+}
