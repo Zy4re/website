@@ -1,18 +1,31 @@
-/* this must be in the same folder as website.html */
 body {
-    background-color: aqua; /* sets the background color to aqua */
+    background-color: white; /* sets the background color to aqua */
 
 }
 header {
-    background-color: blue;
+    background-color: #87CEEB;
     
 }
 
 h1 {
-    color: beige; /* color of header 1 is now beige */
+    background-color: #87CEEB; /* color of header 1 is now beige */
     text-align: center; /* centers everything in header 1 */
 }
 
 h2 {
     text-align: center;
+}
+
+div {
+
+    transition: width 1s ease-in-out;
+    width: 100%;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    transition: all 5s ease;
 }
